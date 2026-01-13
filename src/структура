@@ -1,25 +1,4 @@
-# Создаем структуру проекта
-mkdir project-name
-cd project-name
-
-# Создаем папки
-mkdir docs src
-
-# Создаем файлы README.md и CONTRIBUTING.md
-touch README.md CONTRIBUTING.md
-
-# Инициализируем git репозиторий
-git init
-
-# Добавляем все файлы
-git add .
-
-# Первый коммит
-git commit -m "Initial commit: project structure with docs/, src/, README.md, CONTRIBUTING.md"
-
-project-name/
-├── docs/
-├── src/
-├── README.md
-├── CONTRIBUTING.md
-└── .git/
+Структура групповой работы в GitHub
+Стандартная структура групповой работы в GitHub основана на ветвлении (Git Flow или GitHub Flow), где основная ветка main содержит стабильный код, develop — для разработки, а feature-ветки — для задач.
+Репозиторий организуется с использованием Issues для задач, Projects для досок Kanban и Pull Requests для ревью кода.
+Команды создаются в организациях для управления доступом: владелец, участник, гость.
